@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+button{
+  border: none;
+  background: none;
+}
+button:active{
+  transform: translateY(2px);
+}
+
+
+.ComingSoonBG{
+  position: absolute;
+  background-image: url(./icons/Coming\ Soon.png);
+  width: 100%;
+  min-width: 1440px;
+  height: 758px;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 241, 170, 0.5);
+  box-shadow: 0px 106.597px 85.2778px rgba(255, 255, 255, 0.0253031), 0px 44.5338px 35.627px rgba(255, 255, 255, 0.0363503), 0px 23.8099px 19.0479px rgba(255, 255, 255, 0.045), 0px 13.3476px 10.6781px rgba(255, 255, 255, 0.0536497), 0px 7.08882px 5.67106px rgba(255, 255, 255, 0.0646969), 0px 2.94982px 2.35985px rgba(255, 255, 255, 0.09);
+  filter: blur(10.6597px);
+  -webkit-filter: blur(10.6597px);
+}
+.ComingSoon{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-width: 1440px;
+  height: 758px;
+  position: absolute;
+}
+.ComingSoon p{
+  margin-top: 70px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.91em;
+  color: #8D5E0D;
+  z-index: 10;
+  margin-bottom: 50px;
+}
+.coming-soon-img{
+  width: 440px;
+}
+.coming-soon-footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  min-width: 1440px;
+}
+/*.coming-soon-login{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15.6667px;
+  width: 225px;
+  height: 45px;
+  background: #FFFADD;
+  border-radius: 28.2px;
+  left: 941px;
+  top: 663px;
+}
+.coming-soon-register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15.6667px;
+  position: absolute;
+  width: 225px;
+  height: 45px;
+  left: 1186px;
+  top: 663px;
+  background: #FFFADD;
+  border-radius: 28.2px;
+}
+:is(.coming-soon-login, .coming-soon-register):focus{
+  box-shadow: 0px 0.783333px 6.26667px rgba(0, 0, 0, 0.3);
+  background: #FFE96A;
+}*/
